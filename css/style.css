@@ -154,7 +154,7 @@ header p{
 .contact-image{
    background-image: url("../images/contact.jpg");
    max-height: 700px;
-   overflow-y: hidden;
+   overflow: hidden;
    grid-column: 1 / -1;
    grid-row: 6 / 7;
 }
@@ -165,7 +165,6 @@ header p{
 }
 
 .text-block{
-  text-align: center;
   align-self: center;
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
@@ -235,7 +234,7 @@ header p{
     background-image: url("../images/contact.jpg");
     max-height: 700px;
     overflow: hidden;
-    grid-column: 1 / -1;
+    grid-column: 3 / 5;
     grid-row: 6 / 7;
   }
 
